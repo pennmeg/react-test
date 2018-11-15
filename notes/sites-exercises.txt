@@ -1,0 +1,11 @@
+Understanding Redux
+https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6
+
+React Documentation
+https://reactjs.org/docs/getting-started.html
+
+React Lifecycle Methods
+https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1
+
+** Ways to Practice react
+https://daveceddia.com/react-practice-projects/

@@ -1,0 +1,42 @@
+- create-react-app
+* creates everything
+
+- node modules are installed modules from npm
+* should not upload the node_modules up to github (i.e. git ignore)
+
+- scripts in package.json
+* start/build/etc have an explicit run in front of them
+* any custom scripts you have the do "npm run ___"
+* cane have multiple package.jsons
+
+- react
+* hot reloads
+* react window as a dev tools in chrome 
+* react is stateless (like JS) but we want to render things based on state therefore redux
+
+- react components
+* reuseable bits
+* import React, { Component } from 'react'; --> assumes node node_modules
+* state-and-lifecycle.html
+* smart and dumb (doesn't utlize state or lifecycle methods, only a view of MVC, i.e. buttons) components
+
+- constructor functions/props
+* functions variables
+* this.props 
+
+- proptypes
+* lib that plays well with react to define props 
+* data validation
+
+- REDUX
+* react redux forms (what Trustify uses)
+* redux forms
+* read about redux
+* https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6
+
+- react router
+- thunk 
+
+- Node Express
+* does not hot reload
+* express generator for node express

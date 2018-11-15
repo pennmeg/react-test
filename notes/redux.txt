@@ -1,0 +1,20 @@
+Redux Oct 17
+
+* Actions (switch statements)
+
+lifecycle
+* Action creator : functions that get passed data and they create json object with data
+* Action : nicely formatted data / action that comes from the action creator
+* Dispatch : 
+* Reducer : updates state /store and says there is a change and then updates accordingly
+
+- Anytime there is a change React re-renders
+- createStore
+- <provider> : all components can act on it and receive data from it
+- props : react magic
+- regix : other magic
+- data flows downward and is updated at the top
+
+- see this: https://i.redd.it/g25xnwnxgz6x.png
+
+- react redux forms
