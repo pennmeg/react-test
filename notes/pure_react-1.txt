@@ -1,0 +1,18 @@
+PURE REACT from DAVE CEDDIA: Lesson 1
+* Using CodeSandbox
+
+// Import react and the ability to render items through react-dom
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// returns as a JSX
+// Babel is used to convert JSX into function calls 
+
+function Hi() {
+  return <div>Hello World!</div>;
+}
+
+// works similarly to $('root')
+
+ReactDOM.render(<Hi/>, document.querySelector('#root'));
