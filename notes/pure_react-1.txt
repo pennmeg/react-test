@@ -16,3 +16,28 @@ function Hi() {
 // works similarly to $('root')
 
 ReactDOM.render(<Hi/>, document.querySelector('#root'));
+
+// Add class to using className=""
+// import "./styles.css";
+
+PURE REACT from DAVE CEDDIA: Lesson 2
+
+// functions and arguments
+function Hi(props) {
+  return (
+    <div className="welcome">
+      <h1>Hello {props.name}!</h1>
+    </div>
+  );
+}
+
+ReactDOM.render(<Hi name="Megan"/>, document.querySelector("#root"));
+
+// Using ES6
+function Hi({ name }) {
+  return <div>Hello {name}!</div>;
+}
+// const declares the function and the arrow function is everything after the first equals sign
+const Hi = ({ name }) => {
+  return <div>Hello {name}!</div>;
+}
