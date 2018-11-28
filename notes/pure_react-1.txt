@@ -30,13 +30,13 @@ function Hi(props) {
     </div>
   );
 }
-
 ReactDOM.render(<Hi name="Megan"/>, document.querySelector("#root"));
 
 // Using ES6
 function Hi({ name }) {
   return <div>Hello {name}!</div>;
 }
+
 // const declares the function and the arrow function is everything after the first equals sign
 const Hi = ({ name }) => {
   return <div>Hello {name}!</div>;
